@@ -22,3 +22,12 @@ function piramide(){
     textoCone = document.querySelector('h2#piramide')
     textoCone.textContent = `O valor do volume da piramide é de ${valorPiramide} m³`
 }
+function paralelepipedo(){
+    let compParalelepipedo = Number(prompt("Qual o valor do comprimento do paralelepipedo?"))
+    let largParalelepipedo = Number(prompt("Qual o valor da largura do paralelepipedo?"))
+    let alturaParalelepipedo = Number(prompt("Qual o valor da altura do paralelepipedo"))
+    let valorParalelepipedo = ((compParalelepipedo*largParalelepipedo)*alturaParalelepipedo)
+    alert(`o valor do volume da piramide é de ${valorParalelepipedo} m³`)
+    textoCone = document.querySelector('h2#paralelepipedo')
+    textoCone.textContent = `O valor do volume da paralelepipedo é de ${valorParalelepipedo} m³`
+}
