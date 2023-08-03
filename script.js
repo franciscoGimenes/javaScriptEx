@@ -40,3 +40,12 @@ function cilindro(){
     textoCone = document.querySelector('h2#cilindro')
     textoCone.textContent = `O valor do volume do cilindro é de ${valorCilindro} m³`
 }
+function esfera(){
+    const pi = 3.14
+    let raioEsfera = Number(prompt("Qual o valor do raio da esfera?"))
+    let valorEsfera = (4*pi*(raioEsfera*raioEsfera*raioEsfera))/3
+    alert(`o valor do volume da esfera é de ${valorEsfera} m³`)
+    textoCone = document.querySelector('h2#esfera')
+    textoCone.textContent = `O valor do volume do esfera é de ${valorEsfera} m³`
+}
+//feito por franzino
