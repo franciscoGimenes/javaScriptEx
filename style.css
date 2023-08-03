@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alegreya+Sans+SC&family=Roboto&display=swap');/* font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');/* font-family: 'PT Sans Narrow', sans-serif; */
+.container{
+display: flex;
+}
+body{
+    background-color: #32322C;
+}
+header .titulo{
+    font: 700 48px 'PT Sans Narrow', sans-serif;
+    color: #36F1CD;
+}
+b{
+    color: #36F1CD;
+}
+header .sub{
+    font: 400 30px 'Roboto';
+    
+    color: #13C4A3;
+}
+header .container{
+    width: 100%;
+    background-color: #32322C;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: #13C4A3 1px solid;
+}
+.caixas{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.caixa{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #32322C;
+    justify-content: start;
+    align-items: center ;
+    width: 300px;
+    height: 300px;
+    margin: 70px;
+    border-radius: 10px;
+    border: #13C4A3 3px solid;
+}
+.solido img{
+    width: 150px;
+    height: 150px;
+}
+.caixa .titulo{
+    font: 400 28px 'PT Sans Narrow', sans-serif;;
+    color: #36F1CD;
+}
+.caixa .volume  {
+    font: 400 20px 'Roboto';
+    color: #39A0ED;
+}
+.caixa:hover{
+    box-shadow: #13C4A3;
+    box-shadow: 0px 0px 40px 23px rgba(54, 241, 205, 0.25);
+    transition: 0.3s   ease-in;
+}
+.caixa .conteudo{
+    text-align: center;
+}
