@@ -2,7 +2,7 @@ function cubo(){
     let ladoCubo = Number(prompt("Qual o valor do lado do cubo?"))
     let valorCubo = ladoCubo*ladoCubo*ladoCubo
     alert(`o valor do volume do cubo é de ${valorCubo} m³`)
-    textoCubo = document.querySelector('h2.volume')
+    textoCubo = document.querySelector('h2#cubo')
     textoCubo.textContent = `O valor do volume do cubo é de ${valorCubo} m³`
 }
 function cone(){
@@ -11,6 +11,6 @@ function cone(){
     let alturaCone = Number(prompt("Qual o valor da altura do cone?"))
     let valorCone = ((pi*(raioCone*raioCone))*alturaCone)/3
     alert(`o valor do volume do cubo é de ${valorCone} m³`)
-    textoCone = document.querySelector('h2.volume')
+    textoCone = document.querySelector('h2#cone')
     textoCone.textContent = `O valor do volume do cone é de ${valorCone} m³`
 }
